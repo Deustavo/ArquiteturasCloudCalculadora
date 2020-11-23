@@ -249,11 +249,3 @@ if (calc.length < 14) {
 }
 
 }
-
-var colors = ["pink", "lightblue"];
-function getBinaryRnd (){
-var rnd = Math.random();
-if (rnd > 0.5) return 1;
-else return 0;
-}
-document.body.style.background = colors[getBinaryRnd()];
